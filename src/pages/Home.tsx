@@ -1,10 +1,11 @@
 import React from 'react';
+import ExampleContainer from '../components/Shared/ExampleContainer';
 
 const HomePage = () => {
   return (
-    <div>
-      Use the navbar above to access the examples
-    </div>
+    <ExampleContainer>
+      <p>Use the navbar above to access the examples</p>
+    </ExampleContainer>
   )
 }
 
