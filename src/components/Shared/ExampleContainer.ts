@@ -13,6 +13,10 @@ const ExampleContainer = styled.div`
     margin-top: 0;
   }
 
+  button {
+    min-width: 3rem;
+  }
+
   div {
     display: flex;
     justify-content: space-around;
