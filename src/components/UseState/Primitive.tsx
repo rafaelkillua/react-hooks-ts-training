@@ -8,6 +8,9 @@ const UseStatePrimitive = () => {
   return (
     <ExampleContainer>
       <p>
+        <strong>Primitive values</strong>
+      </p>
+      <p>
         Clicks counter: {clicks}
       </p>
       <div>

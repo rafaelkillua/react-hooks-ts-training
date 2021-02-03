@@ -18,6 +18,9 @@ const UseStateObject = () => {
   return (
     <ExampleContainer>
       <p>
+        <strong>Object values</strong>
+      </p>
+      <p>
         Form: {JSON.stringify(form)}
       </p>
       <div>
