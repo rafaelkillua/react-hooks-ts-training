@@ -1,6 +1,7 @@
 import { Route, Switch } from "react-router-dom"
 
 import HomePage from "./pages/Home"
+import UseEffectPage from "./pages/UseEffect"
 import UseStatePage from "./pages/UseState"
 
 export const routes = [
@@ -15,6 +16,12 @@ export const routes = [
     path: '/useState',
     exact: false,
     component: UseStatePage
+  },
+  {
+    label: 'useEffect',
+    path: '/useEffect',
+    exact: false,
+    component: UseEffectPage
   }
 ]
 
