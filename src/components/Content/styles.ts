@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
-const StyledContent = styled.section`
+export const StyledContent = styled.section`
   padding: 1rem;
 `
 
-export default StyledContent
+export const StyledMain = styled.main`
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+`

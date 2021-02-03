@@ -1,14 +1,15 @@
-import React, { FC, PropsWithChildren }  from 'react'
+import React from 'react'
 
-import StyledContent from './styles'
+import Routes from '../../routes'
+import { StyledContent, StyledMain } from './styles'
 
-const Content: FC = (props: PropsWithChildren<any>) => {
-  const { children } = props
-
+const Content = () => {
   return (
-    <StyledContent>
-      {children}
-    </StyledContent>
+    <StyledMain>
+      <StyledContent>
+        <Routes />
+      </StyledContent>
+    </StyledMain>
   )
 }
 
