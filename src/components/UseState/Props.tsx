@@ -1,4 +1,4 @@
-import React, { PropsWithoutRef, useState } from 'react'
+import React, { useState } from 'react'
 
 import ExampleContainer from '../Shared/ExampleContainer'
 
@@ -6,7 +6,7 @@ type InitialValueType = {
   initialValue: number
 }
 
-const UseStateProps = (props: PropsWithoutRef<InitialValueType>) => {
+const UseStateProps = (props: InitialValueType) => {
   const { initialValue } = props
 
   const [value, setValue] = useState(initialValue)

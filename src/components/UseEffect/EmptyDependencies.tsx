@@ -22,7 +22,7 @@ const UseEffectEmptyDependencies = () => {
     window.addEventListener('resize', onResize)
     
     return () => {
-      window.addEventListener('resize', onResize)
+      window.removeEventListener('resize', onResize)
     }
   }, [])
 
