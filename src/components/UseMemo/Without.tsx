@@ -24,7 +24,7 @@ const UseMemoWith = () => {
   return (
     <ExampleContainer>
       <p>
-        <strong>Without memo</strong>
+        <strong>Without memo - check console for render count</strong>
       </p>
       <p>
         Full name: {getFullName()}
