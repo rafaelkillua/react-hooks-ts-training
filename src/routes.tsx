@@ -1,6 +1,7 @@
 import { Route, Switch } from "react-router-dom"
 
 import HomePage from "./pages/Home"
+import UseContextPage from "./pages/UseContext"
 import UseEffectPage from "./pages/UseEffect"
 import UseMemoPage from "./pages/UseMemo"
 import UseStatePage from "./pages/UseState"
@@ -29,6 +30,12 @@ export const routes = [
     path: '/useMemo',
     exact: false,
     component: UseMemoPage
+  },
+  {
+    label: 'useContext',
+    path: '/useContext',
+    exact: false,
+    component: UseContextPage
   },
 ]
 
