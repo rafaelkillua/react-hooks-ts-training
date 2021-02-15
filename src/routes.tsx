@@ -4,6 +4,7 @@ import HomePage from "./pages/Home"
 import UseContextPage from "./pages/UseContext"
 import UseEffectPage from "./pages/UseEffect"
 import UseMemoPage from "./pages/UseMemo"
+import UseReducerPage from "./pages/UseReducer"
 import UseStatePage from "./pages/UseState"
 
 export const routes = [
@@ -36,6 +37,12 @@ export const routes = [
     path: '/useContext',
     exact: false,
     component: UseContextPage
+  },
+  {
+    label: 'useReducer',
+    path: '/useReducer',
+    exact: false,
+    component: UseReducerPage
   },
 ]
 
