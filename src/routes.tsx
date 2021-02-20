@@ -1,4 +1,5 @@
 import { Route, Switch } from "react-router-dom"
+import CustomHookPage from "./pages/CustomHook"
 
 import HomePage from "./pages/Home"
 import UseContextPage from "./pages/UseContext"
@@ -50,6 +51,12 @@ export const routes = [
     path: '/useRef',
     exact: false,
     component: UseRefPage
+  },
+  {
+    label: 'customHook',
+    path: '/customHook',
+    exact: false,
+    component: CustomHookPage
   },
 ]
 
